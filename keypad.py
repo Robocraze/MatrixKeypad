@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
  
 class keypad():
-    def __init__(self, columnCount = 3, row=[18,23,24,25], column=[4,17,22,21]):
+    def __init__(self, columnCount = 4, row=[2, 3, 4, 5], column=[6, 7, 8, 9]):
         GPIO.setmode(GPIO.BCM)
 
         # CONSTANTS 
